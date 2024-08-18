@@ -6,17 +6,17 @@
   }
 
   .div-title-right {
-    display: none; /* Hide the menu by default on small screens */
+    display: none; 
   }
 
   .icon-show {
-    display: block; /* Make sure the icon is displayed */
+    display: block; /
     color: white;
-    font-size: 30px; /* Increase size for visibility */
-    cursor: pointer; /* Make it look clickable */
+    font-size: 30px;
+    cursor: pointer; 
     padding: 10px;
   }
-}
+
 
   .div-title-right{
     display:none;
@@ -129,7 +129,29 @@ width:90px;
             margin: 0 auto;
            border-radius: 50%;
           }
+          /* main run start here */
+          .main-run{
+            background-color: #bbbbbb5f;
+           
+            color:white;
+             margin:0 auto;
+             border: 2px solid red;
+             flex-direction: column;
+             
+          }
+          .main-run-para-left{ 
+            border:2px solid green;
+             width:100%;
+            flex-direction: column;
+           justify-content: center;
+            align-items: center;
+          }
+          .main-run-right{
+            width: 90%;
+            border:2px solid aquamarine;
+            padding:20px 10px;
           
+          }
             
           }
         

@@ -156,7 +156,7 @@ color:white;
 grid-area: a;
 
 }
-.main-second-img{
+.main-second-img img{
   border-radius: 50%;
 }
 .second-p1{
@@ -183,3 +183,133 @@ grid-area: c;
       color:white;
 grid-area: d;
       }
+      /* run container start here */
+      .main-run-container{
+        background-color: black;
+        
+      
+      }
+    .main-run{
+      background-color: #bbbbbb5f;;
+      color:white;
+      max-width: 1000px;
+       margin:0 auto;
+       border: 2px solid red;
+       display: flex;
+       
+    }
+    .main-run-para-left{
+    width:50%; 
+    border:2px solid green;
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+  }
+  .para-one{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   display:flex;
+   justify-content: center;
+  }
+  .para-two{
+    color:rgba(255, 255, 255, 0.5);
+    display:flex;
+   justify-content: center;
+  }
+  .run-btn{
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 50%;
+  margin-top: 20px;
+  }
+.main-run-right{
+  width:50%;
+  border:2px solid aquamarine;
+
+}
+.main-run-right img{
+  width:100%;
+  height:312px;
+}
+/* main-meet starts here */
+.main-meet{
+  background-color: black;
+}
+.main-meet-first{
+  color:white;
+  max-width: 1000px;
+   margin:0 auto;
+   border: 2px solid red;
+   display: flex;
+   flex-direction: column;
+}
+.meet-para{
+  flex-direction: column;
+}
+.meet-para-one{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+justify-content: center;
+
+}
+.meet-para-two{
+  color:rgba(255, 255, 255, 0.5);
+  display: flex;
+justify-content: center;
+}
+/* .main-meet-second {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-meet-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.main-meet-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.meet-second-card1,
+.meet-second-card2,
+.meet-second-card3,
+.meet-second-card4,
+.meet-second-card5,
+.meet-second-card6 {
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.meet-second-card-para {
+  margin-top: 10px;
+} */
+.second-meet{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.main-meet-container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.main-meet-container img{
+  width:100%;
+  height:300px;
+}
+.meet-card1,.meet-card2,
+.meet-card3,.meet-card4
+.meet-card5,.meet-card6{
+  color:white;
+  
+}
+
+          
+

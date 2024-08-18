@@ -258,39 +258,6 @@ justify-content: center;
   display: flex;
 justify-content: center;
 }
-/* .main-meet-second {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.main-meet-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.main-meet-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.meet-second-card1,
-.meet-second-card2,
-.meet-second-card3,
-.meet-second-card4,
-.meet-second-card5,
-.meet-second-card6 {
-  color: white;
-  background-color: #333;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.meet-second-card-para {
-  margin-top: 10px;
-} */
 .second-meet{
   max-width: 1000px;
   margin: 0 auto;
@@ -298,7 +265,10 @@ justify-content: center;
 .main-meet-container{
   display:grid;
   grid-template-columns: repeat(3,1fr);
-
+  position:relative;
+  padding:15px 15px;
+  gap:5px;
+  background-color:rgba(255, 255, 255, 0.5) ;
 }
 .main-meet-container img{
   width:100%;
@@ -309,6 +279,46 @@ justify-content: center;
 .meet-card5,.meet-card6{
   color:white;
   
+}
+.meet-card-p1{
+  color:white;
+  position:absolute;
+  top:200px;
+  left:50px;
+
+}
+.meet-card-p2{
+  color:white;
+  position:absolute;
+  top:200px;
+  left:280px;
+}
+.meet-card-p3{
+  color:white;
+  position:absolute;
+  top:200px;
+  left:540px;
+
+}
+.meet-card-p4{
+    color:white;
+    position:absolute;
+    top:500px;
+    left:50px;
+}
+.meet-card-p5{
+  color:white;
+    position:absolute;
+    top:500px;
+    left:290px;
+
+}
+.meet-card-p6{
+  color:white;
+  position:absolute;
+  top:500px;
+  left:540px;
+
 }
 
           

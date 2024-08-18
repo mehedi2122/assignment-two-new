@@ -60,7 +60,7 @@
         }
           
           .box-right{
-            border:2px solid green;
+          
             width:100%;
             position: relative;
             }
@@ -135,12 +135,12 @@ width:90px;
            
             color:white;
              margin:0 auto;
-             border: 2px solid red;
+          
              flex-direction: column;
              
           }
           .main-run-para-left{ 
-            border:2px solid green;
+            
              width:100%;
             flex-direction: column;
            justify-content: center;
@@ -148,7 +148,6 @@ width:90px;
           }
           .main-run-right{
             width: 90%;
-            border:2px solid aquamarine;
             padding:20px 10px;
           
           }
@@ -221,8 +220,63 @@ width:90px;
             left:200px;
           }
 
-
-
+          .last-container{
+            background-color: #2c2b2b;
+            padding:20px;
+            }
+            .last-box{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              }
+              .last-box-one{
+                
+                }
+              .last-one1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                }
+                .last-one2{
+                  color:rgba(255, 255, 255, 0.5) ;
+                  display:flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  }
+                  .last-box-two{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    }
+                    .last-two1{
+                      color:white;
+                      justify-content: center;
+                      }
+                      .last-two2{
+                        color:rgba(255, 255, 255, 0.5) ;
+                        justify-content: center;
+                      }
+                      .last-box-three{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        }
+                        .last-three1{
+                        color:white;
+                        justify-content: center;
+                        }
+                        .last-three2{
+                          color:rgba(255, 255, 255, 0.5) ;
+                          justify-content: center;
+                        }
+                        .line {
+                          border-bottom: 1px solid #888;
+                        }
+                        .right-resive{
+                          display: flex;
+                          flex-direction: column;
+                          color:rgba(255, 255, 255, 0.5) ;
+                        }
 
           }
         
